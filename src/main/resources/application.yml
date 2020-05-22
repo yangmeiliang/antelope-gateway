@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: antelope-gateway
+  cloud:
+    gateway:
+      routes:
+server:
+  port: 8088
+logging:
+  level:
+    org.springframework.cloud: debug
+
